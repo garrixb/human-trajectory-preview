@@ -8,7 +8,7 @@
 
 无需npm或构建。运行`python -m http.server 8765`，访问`http://localhost:8765`。GitHub Pages从main分支根目录发布，.nojekyll关闭Jekyll处理。
 
-export_data.py是可重复数据提取脚本，读取本地原数据生成data/*.json；本地路径仅在导出脚本中，发布页面不显示个人身份、机器路径或地图地理坐标。若分享本仓库，脚本中的研究目录可自行修改。
+export_data.py是可重复数据提取脚本，读取本地原数据生成data/*.json；运行`python export_data.py --data-root 原数据目录 --experiment-root 编号9和10实验目录`。发布文件不含个人身份、机器绝对路径或地图地理坐标。
 
 ## 来源和边界
 

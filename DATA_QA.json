@@ -1,0 +1,136 @@
+{
+  "sequences": 16,
+  "total_frames": 184568,
+  "checks": [
+    {
+      "uid": 140001,
+      "frames": 2150,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 140003,
+      "frames": 1425,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 140004,
+      "frames": 1578,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 140005,
+      "frames": 4601,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 140006,
+      "frames": 4027,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 150001,
+      "frames": 5042,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 150003,
+      "frames": 8099,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 150004,
+      "frames": 8748,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 16001,
+      "frames": 18926,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 16002,
+      "frames": 24993,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 16007,
+      "frames": 9942,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 16009,
+      "frames": 14250,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 18002,
+      "frames": 6072,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 18003,
+      "frames": 21948,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 18004,
+      "frames": 16604,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    },
+    {
+      "uid": 18005,
+      "frames": 36163,
+      "tracks": 5,
+      "time_monotonic": true,
+      "finite_arrays": true,
+      "has_lag_qa": true
+    }
+  ],
+  "no_colleague_data": true,
+  "unchanged_paper_thresholds": true
+}

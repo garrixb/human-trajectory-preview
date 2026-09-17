@@ -3,9 +3,14 @@ import json, hashlib
 import numpy as np
 import pandas as pd
 
-BASE=Path(r'G:\shucai\Huawei_dual_official_all_20260827')
-SITE=Path(r'G:\shucai\human-trajectory-preview')
-EX=Path(r'G:\shucai\human_trajectory_turn_multihypothesis_20260917')
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--data-root',required=True,help='Original Huawei experiment root')
+parser.add_argument('--experiment-root',required=True,help='Number 9/10 experiment root')
+args=parser.parse_args()
+BASE=Path(args.data_root)
+EX=Path(args.experiment_root)
+SITE=Path(__file__).resolve().parent
 def arr(x): return np.round(np.asarray(x,float),4).tolist()
 def dump(path,data): path.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'),allow_nan=False),encoding='utf8')
 def main():
